@@ -206,6 +206,10 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     mm-qcamera-app
 
+# Build ims-ext-common package
+PRODUCT_PACKAGES += \
+    ims-ext-common
+
 # GPS
 PRODUCT_PACKAGES += \
     libgps.utils \
