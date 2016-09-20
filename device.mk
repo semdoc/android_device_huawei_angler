@@ -266,7 +266,8 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/huawei/angler/overlay
+    device/huawei/angler/overlay \
+    device/huawei/angler/overlay-cm
 
 # Mobile Data provision prop
 PRODUCT_PROPERTY_OVERRIDES += \
