@@ -76,8 +76,8 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/synaptics_dsx.idc:system/usr/idc/synaptics_dsx.idc
 
 # for launcher layout
-PRODUCT_PACKAGES += \
-    AnglerLayout
+#PRODUCT_PACKAGES += \
+#    AnglerLayout
 
 # include fingerprintd
 PRODUCT_PACKAGES += \
@@ -463,5 +463,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=adb \
-    ro.adb.secure=0 \
-    ro.du.updater=angler
+    ro.adb.secure=0
