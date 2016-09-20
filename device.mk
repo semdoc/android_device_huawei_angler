@@ -269,7 +269,8 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/huawei/angler/overlay
+    device/huawei/angler/overlay \
+    device/huawei/angler/overlay-cm
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610
